@@ -18,6 +18,10 @@ Container then can be accessed
 1. via noVNC session via http://localhost:5901/vnc.html 
 2. by any vncviewer on *localhost:3*
 
+### Creating c++ apps in two steps  
+![img](https://i.ibb.co/q7zznTw/rsz-lolqt.png)
+
+
 ### What's included
 Currently this docker file is *non parametrized* but there are plans to make it generic as much as possible
 Here is what current image will contain
