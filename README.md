@@ -29,14 +29,14 @@ Here is what current image will contain
 
 ### running on real devices 
 
-Its also possible to deploy c++ applications on real devices. Two approaches
+Its also possible to deploy c++ applications to real devices. There are rwo approaches
 
 - running via shared USB
 ```
   docker run -p 5903:5903 -p 5901:5901 --privileged -v /dev/bus/usb:/dev/bus/usb wip_<img> 
 ```
 
-- running ADB on host ( requires same version platform-tools on host and starting adb on host first )
+- running by running ADB on host ( requires same version platform-tools on host and starting adb on host first )
 ```
   docker run -p 5903:5903 -p 5901:5901 --privileged --network=host <img> 
 ```
