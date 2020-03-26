@@ -6,7 +6,7 @@ Dockerfile that produces an image the contain all nessary prerequisites for work
 
 For building image simple do
 ```
-docker built -t android_cppdev_prerequisites .
+  docker built -t android_cppdev_prerequisites .
 ```
 
 To run, execute 
