@@ -1,12 +1,16 @@
-# qt_android_docker
+# Android docker prerequisites
+
+### What's this?
+
+Dockerfile that produces image containt all prerequisites for working with Android in C++ 
 
 ```
   docker run -p 5903:5903 -p 5901:5901 <img>
 ```
+Container then can be accessed via noVNC session via http://localhost:5901/vnc.html or by any vncviewer on *localhost:3*
 
 
-
-#### running on real devices 
+### running on real devices 
 
 - running via shared USB
 ```
