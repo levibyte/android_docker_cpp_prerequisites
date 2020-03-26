@@ -1,11 +1,12 @@
 # qt_android_docker
 
-- running emulator
 ```
   docker run -p 5903:5903 -p 5901:5901 <img>
 ```
 
-running on real devices can also achieved
+
+
+##### running on real devices can also achieved
 
 - running via shared USB
 ```
