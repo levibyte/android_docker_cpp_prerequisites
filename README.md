@@ -6,7 +6,7 @@
 
 
 
-##### running on real devices can also achieved
+##### running on real devices 
 
 - running via shared USB
 ```
