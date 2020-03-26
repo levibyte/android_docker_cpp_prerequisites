@@ -2,15 +2,34 @@
 
 ### What's this?
 
-Dockerfile that produces image containt all prerequisites for working with Android in C++ 
+Dockerfile that produces an image the contain all nessary prerequisites for working with Android in C++/Qt 
+
+For building image simple do
+```
+docker built -t android_cppdev_prerequisites .
+```
+
+To run, execute 
 
 ```
-  docker run -p 5903:5903 -p 5901:5901 <img>
+  docker run -p 5903:5903 -p 5901:5901 --privileged android_cppdev_prerequisites
 ```
-Container then can be accessed via noVNC session via http://localhost:5901/vnc.html or by any vncviewer on *localhost:3*
+Container then can be accessed 
+1. via noVNC session via http://localhost:5901/vnc.html 
+2. by any vncviewer on *localhost:3*
 
+### What's included
+Currently this docker file is *non parametrized* but there are plans to make it generic as much as possible
+Here is what current image will contain
+- Java 8
+- SDK26 + tools, platform-tools, build-tools
+- NDK 21
+- Emulator and some basic device 
+- Qt installer
 
 ### running on real devices 
+
+Its also possible to deploy c++ applications on real devices. Two approaches
 
 - running via shared USB
 ```
