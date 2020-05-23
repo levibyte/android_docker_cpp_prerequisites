@@ -1,20 +1,21 @@
-# Android docker prerequisites
+# Android for C++ prerequisites docker image
 
 
 ### What's this?
 Dockerfile that produces an image the contain all nessary prerequisites for working with Android in C++/Qt
 
-#### noVNC session chrome tab showing openGL for Android running under emulator 
-![img](https://i.ibb.co/yPpbhtw/lolqt-2.png)
-
 ### What's included
 Currently this docker file is *non parametrized* but there are plans to make it generic as much as possible
-Here is what current image will contain
+Here is what the image contains
 - Java 8
 - SDK26 + tools, platform-tools, build-tools
 - NDK 21
 - Emulator and some basic device 
 - Qt installer
+- noVNC
+
+##### noVNC session in chrome tab showing running openGL example on Android emulator
+![img](https://i.ibb.co/yPpbhtw/lolqt-2.png)
 
 ### Usage
 You can build image yourself via Dockerfile or pull the build image from dockerhub 
