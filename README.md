@@ -15,8 +15,8 @@ To run, execute
   docker run -p 5903:5903 -p 5901:5901 --privileged android_cppdev_prerequisites
 ```
 Container then can be accessed via vnc connection ( password:123456 )
-option1. via browser http://localhost:5901/vnc.html  ( using noVNC )
-option2. any vncviewer on *localhost:3*
+- option1: via browser http://localhost:5901/vnc.html  ( using noVNC )
+- option2: any vncviewer on *localhost:3*
 
 ### Creating c++ apps in two steps  
 ![img](https://i.ibb.co/q7zznTw/rsz-lolqt.png)
