@@ -1,8 +1,22 @@
 # Android docker prerequisites
 
-### What's this?
 
+### What's this?
 Dockerfile that produces an image the contain all nessary prerequisites for working with Android in C++/Qt 
+
+
+### Creating c++ apps in two steps  
+![img](https://i.ibb.co/q7zznTw/rsz-lolqt.png)
+
+
+### What's included
+Currently this docker file is *non parametrized* but there are plans to make it generic as much as possible
+Here is what current image will contain
+- Java 8
+- SDK26 + tools, platform-tools, build-tools
+- NDK 21
+- Emulator and some basic device 
+- Qt installer
 
 For building image simple do
 ```
@@ -17,19 +31,6 @@ To run, execute
 Container then can be accessed via vnc connection ( password:123456 )
 - option1: via browser http://localhost:5901/vnc.html  ( using noVNC )
 - option2: any vncviewer on *localhost:3*
-
-### Creating c++ apps in two steps  
-![img](https://i.ibb.co/q7zznTw/rsz-lolqt.png)
-
-
-### What's included
-Currently this docker file is *non parametrized* but there are plans to make it generic as much as possible
-Here is what current image will contain
-- Java 8
-- SDK26 + tools, platform-tools, build-tools
-- NDK 21
-- Emulator and some basic device 
-- Qt installer
 
 ### running on real devices 
 
