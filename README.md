@@ -14,7 +14,7 @@ Here is what the image contains
 - Qt installer
 - noVNC
 
-##### noVNC session in chrome tab showing running openGL example on Android emulator
+##### noVNC session in chrome tab showing openGL example running on Android emulator (thats running inside docker container)
 ![img](https://i.ibb.co/yPpbhtw/lolqt-2.png)
 
 ### Usage
