@@ -28,7 +28,7 @@ To build image yourself
   docker built -t android_cppdev_prerequisites .
 ```
 
-To run, execute 
+To run, simply do 
 
 ```
   docker run -p 5903:5903 -p 5901:5901 --privileged android_cppdev_prerequisites
