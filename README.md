@@ -2,12 +2,10 @@
 
 
 ### What's this?
-Dockerfile that produces an image the contain all nessary prerequisites for working with Android in C++/Qt 
+Dockerfile that produces an image the contain all nessary prerequisites for working with Android in C++/Qt
 
-
-### Creating c++ apps in two steps  
-![img](https://i.ibb.co/q7zznTw/rsz-lolqt.png)
-
+#### noVNC session chrome tab showing openGL for Android running under emulator 
+![img](https://i.ibb.co/yPpbhtw/lolqt-2.png)
 
 ### What's included
 Currently this docker file is *non parametrized* but there are plans to make it generic as much as possible
@@ -18,7 +16,13 @@ Here is what current image will contain
 - Emulator and some basic device 
 - Qt installer
 
-For building image simple do
+### Usage
+You can build image yourself via Dockerfile or pull the build image from dockerhub 
+```
+docker pull hopar/android_prerequisites_sdk26_ndk21
+
+```
+To build image yourself
 ```
   docker built -t android_cppdev_prerequisites .
 ```
